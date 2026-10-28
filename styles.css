@@ -581,7 +581,7 @@ a {
   .project-card .bg img {
     transition: none;
   }
-
+}
 
 /* ===== CORRECCIÓN SOBRE MÍ EN CELULARES ===== */
 
@@ -592,7 +592,7 @@ a {
     display: block;
     height: auto;
     min-height: 0;
-    overflow: visible;
+    overflow: hidden; /* evita scroll horizontal por el panel desplazado */
   }
 
   #about .about-panel.about-text {
@@ -645,7 +645,4 @@ a {
     opacity: 1;
     pointer-events: auto;
   }
-}
-
-
 }
